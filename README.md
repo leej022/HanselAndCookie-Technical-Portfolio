@@ -35,8 +35,9 @@ Unreal Engine 5 기반 2인 협동 멀티플레이 게임 **Hansel & Cookie**의
 
 ### Co-op Gameplay & Physics
 - Networked Boat System
-- Rope / Tether System
-- Moving Platforms
+- Two-Player Pulley Lift System
+- Server-Authoritative Physics
+- Custom Network Smoothing
 - Cooperative Interaction
 
 ### Gameplay Systems
@@ -56,6 +57,22 @@ Unreal Engine 5 기반 2인 협동 멀티플레이 게임 **Hansel & Cookie**의
 - `LoadingPlayerControllerBase.h / .cpp`
 - `LoadingOverlayWidgetBase.h / .cpp`
 - `LoadingScreenConfigAsset.h / .cpp`
+
+### Boat System
+
+`Source/CoopGameplay/BoatSystem`
+
+- `Boat.h / .cpp`
+- `BoatPlayerController.h / .cpp`
+- `BoatSavePoint.h / .cpp`
+- `BoatTurretBullet.h / .cpp`
+- `RiverFlowVolume.h / .cpp`
+
+### Two-Player Pulley Lift System
+
+`Source/CoopGameplay/PulleyLiftSystem`
+
+- `TwoDRopeLiftBar.h / .cpp`
 
 ---
 
